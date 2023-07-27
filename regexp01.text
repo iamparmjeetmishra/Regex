@@ -1,0 +1,24 @@
+// JS RegExp constructor 
+new RegExp(pattern, flag) // Pattern - string or literal notation
+// Default Behaviour of RegExp is to return only the first substring that match
+
+// Flags - 4 common types
+// Flags - g -- Global Flag return All matches
+// Flags - i -- Case insensitive remove case restriction in matches
+// Flags - S -- Newline flag so the . special character matches a newline
+// Flags - m -- Multiline Match Flag- so the ^ ad $ special characters match the beginning and end of a newline
+
+
+// List of meta characters
+
+\s Whitespace - Represents whitespaces 
+\S Non Whitespace - (digits, letters, symbols) 
+
+\d Digit - [0 - 9]
+\D Non Digit - letters, whitespaces, symbols 
+
+\w Word = Word Characters(letters, digits, underscore_)
+\W Non - Word = (whitespaces, every other symbols)
+
+\n Newline
+\b word boundary 
